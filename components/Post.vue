@@ -1,9 +1,9 @@
 <template>
     <div>
-      <!-- <Story class="mb-5"/> -->
+      <!-- <Story/> -->
 
 
-      <div class="bg-header  sm:rounded-xl border-gray-700 border">
+      <!-- <div class="bg-header  sm:rounded-xl border-gray-700 border">
         <div class="flex items-center justify-between p-2 ">
           <div class="flex text-white gap-2 text-sm items-center">
             <a href="#">
@@ -58,7 +58,7 @@
             <a href="#" class="text-sm text-blue-600">Post</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
 
@@ -66,7 +66,7 @@
 
 
 
-      <div class="bg-header mt-5 sm:rounded-xl border-gray-700 border">
+      <!-- <div class="bg-header mt-5 sm:rounded-xl border-gray-700 border">
       <div class="flex items-center justify-between p-2 md:content-center">
         <div class="flex text-white gap-2 text-sm items-center">
           <a href="#">
@@ -120,7 +120,7 @@
           <a href="#" class="text-sm text-blue-600">Post</a>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-    <div class="bg-header mt-5 sm:rounded-xl border-gray-700 border mb-8">
+    <!-- <div class="bg-header mt-5 sm:rounded-xl border-gray-700 border mb-8">
       <div class="flex items-center justify-between p-2 md:content-center">
         <div class="flex text-white gap-2 text-sm items-center">
           <a href="#">
@@ -195,16 +195,32 @@
           <a href="#" class="text-sm text-blue-600">Post</a>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+
+
+
+
+
+    <PostData userid="sanketkhote" media="unknown" post="https://images.unsplash.com/photo-1611068813580-b07ef920964b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyJTIwZm9yJTIwbW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" like="256" caption="idioticschool Reality 💯" time="2 hour" comment="32"/>
+    <PostData userid="sanketkhote" media="unknown" post="https://pixabay.com/get/gc6964d4c0262489de3cee45d7abea9feff6c0ab8937afd39535943acc1918902d72b9bb5a04851d2a730966337cf2b43_1280.jpg" like="256" caption="idioticschool Reality 💯" time="2 hour" comment="32"/>
+    <PostData userid="sanketkhote"  post="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" like="256" caption="idioticschool Reality 💯" time="2 hour" comment="32"/>
+    <PostData userid="sanketkhote" media="unknown" post="https://pixabay.com/get/gc6964d4c0262489de3cee45d7abea9feff6c0ab8937afd39535943acc1918902d72b9bb5a04851d2a730966337cf2b43_1280.jpg" like="256" caption="idioticschool Reality 💯" time="2 hour" comment="32"/>
+    <PostData class="pb-5" userid="sanketkhote"  post="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStPsLJ_4bSgId0pv4GriD2NofA1d0g71rMUg&usqp=CAU" like="256" caption="idioticschool Reality 💯" time="2 hour" comment="32"/>
+    
+    
+    
     <Footer/>
     </div>
   </template>
   <script>
 import Story from './Story.vue';
 import Footer from './Footer.vue';
+import PostData from './PostData.vue';
     export default {
     name: "post",
-    components: { Story, Footer }
+    components: { Story, Footer, PostData }
 }
     </script>
     

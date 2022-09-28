@@ -23,11 +23,11 @@
       
 
       <!-- <Suggest class="text-white" :status="follow" :username="sanket" /> -->
-      <Suggest username="sanket.khote" status="Follow"/>
-      <Suggest username="sanket.khote" status="Follow"/>
-      <Suggest username="sanket.khote" status="Follow"/>
-      <Suggest username="sanket.khote" status="Follow"/>
-      <Suggest username="sanket.khote" status="Follow"/>
+      <Suggest username="Letitia Russell" status="Follow" photo="https://randomuser.me/api/portraits/women/34.jpg"/>
+      <Suggest username="Margie Burke" status="Follow" photo="https://randomuser.me/api/portraits/women/43.jpg"/>
+      <Suggest username="Bruce Peck" status="Follow" photo="https://randomuser.me/api/portraits/men/41.jpg"/>
+      <Suggest username="Stanley Jimenez" status="Follow" photo="https://randomuser.me/api/portraits/men/42.jpg"/>
+      <Suggest username="Misty Bishop" status="Follow" photo="https://randomuser.me/api/portraits/women/45.jpg"/>
 
       <div class="text-gray-400 flex gap-1 text-xs pt-5">
         <a class="hover:underline " href="#">About</a>

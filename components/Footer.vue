@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:hidden bg-header w-full float align-bottom flex items-center py-1  justify-between px-2 border border-y fixed bottom-0 left-0 right-0 border-gray-700 ">
+    <div class="sm:hidden bg-header w-full float align-bottom flex items-center py-1  justify-between px-2 border border-y fixed bottom-0 left-0 right-0 border-gray-700">
         <a href="#">
             <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-label="Home" class="_ab6-" color="#fafafa" fill="#fafafa" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M22 23h-6.001a1 1 0 01-1-1v-5.455a2.997 2.997 0 10-5.993 0V22a1 1 0 01-1 1H2a1 1 0 01-1-1V11.543a1.002 1.002 0 01.31-.724l10-9.543a1.001 1.001 0 011.38 0l10 9.543a1.002 1.002 0 01.31.724V22a1 1 0 01-1 1z" fill="#FAFAFA"></path></svg>
         </a>

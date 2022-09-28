@@ -1,7 +1,7 @@
 <template>
-    <div class=" w-auto  justify-center flex gap-10 sm:pt-10 bg-bg mt-12">
-      <Post class="w-[468px]"/>
-      <Sidebar class="w-[319px] hidden lg:block"/>
+    <div class=" w-auto  justify-center flex gap-10 sm:pt-5 bg-bg mt-12">
+      <Post class="w-[468px] "/>
+      <Sidebar class="w-[319px] pt-5 hidden lg:block"/>
     </div>
   </template>
   <script>
